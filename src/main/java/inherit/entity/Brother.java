@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue("BROTHER") // Stüna "SISTER" yazacak, veritabanını kontrol et anlayacaksın
+@DiscriminatorValue("BROTHER") // Sütuna "SISTER" yazacak, veritabanını kontrol et anlayacaksın
 public class Brother extends Parent{
 
 

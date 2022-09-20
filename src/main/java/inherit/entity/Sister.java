@@ -3,13 +3,12 @@ package inherit.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue("SISTER") // Stüna "SISTER" yazacak, veritabanını kontrol et anlayacaksın
+@DiscriminatorValue("SISTER") // Sütuna "SISTER" yazacak, veritabanını kontrol et anlayacaksın
 public class Sister extends  Parent{
 
 

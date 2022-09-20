@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS )
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE )
 @DiscriminatorColumn( name = "SIBLING_TYPE") // bunuyazsak veritabanına DTYPE sütun adıyle ekliyor
 public abstract class Parent {
 
